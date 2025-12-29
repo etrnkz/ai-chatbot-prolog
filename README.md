@@ -30,16 +30,16 @@ This project demonstrates combining logic programming with a modern interactive 
 
 1. Clone the repo:
 
-   `bash
+   ``` bash
    git clone https://github.com/etrnkz/ai-chatbot-prolog.git
    cd ai-chatbot-prolog
-   `
+   ```
 
 2. Install Python dependencies:
 
-   `bash
+   ``` bash
    pip install -r requirements.txt
-   `
+   ```
 
 3. Install SWI-Prolog:
 
@@ -49,15 +49,15 @@ This project demonstrates combining logic programming with a modern interactive 
 
 1. **Start the Prolog API server:**
 
-   `bash
+   ``` bash
    swipl server.pl
-   `
+   ```
 
 2. **Start the Streamlit interface:**
 
-   `bash
+   ``` bash
    streamlit run web.py
-   `
+   ```
 
 3. Open your browser at the URL shown by Streamlit and start chatting.
 
