@@ -1,37 +1,24 @@
 
-# AI Chatbot in Prolog 
+## AI Chatbot in Prolog 
 
 A simple logic-based chatbot where **Prolog serves the AI logic** via an API, and **Python with Streamlit provides the user interface**.  
 This project demonstrates combining logic programming with a modern interactive interface.
 
-##  Overview
+###  Overview
 
 - **Prolog AI logic**: Handles reasoning, pattern matching, and conversational rules.  
 - **Python / Streamlit**: Provides a user-friendly interface and communicates with Prolog via API.  
 - Ideal for learning **logic programming**, API integration, and simple conversational AI.
 
-###  Key Concepts
-
-- Prolog for symbolic reasoning and rule-based conversation
-- Python Streamlit interface for interactive chat
-- Prolog and Python communicate via a lightweight API
 
 
-| File | Role |
-|------|------|
-| `server.pl` | Prolog chatbot core and API logic |
-| `app.py` | Python Streamlit interface for interacting with Prolog |
-| `Data.json` | Phrase templates, responses and dialog rules |
-| `LICENSE` | MIT open source license |
-
-##  Features
+###  Features
 
  - Prolog AI logic via API  
  - Interactive Python Streamlit interface  
  - Rule-based responses, easily extendable  
  - Lightweight, modular design
 
-##  Getting Started
 
 ### Requirements
 
@@ -74,18 +61,18 @@ This project demonstrates combining logic programming with a modern interactive 
 
 3. Open your browser at the URL shown by Streamlit and start chatting.
 
-##  Example
+###  Example
 
-Sample conversation:
+- Sample conversation:
 
-You: Hello!
-Bot: Hi there! How can I help you today?
+ - You: Hello!
+ - Bot: Hi there! How can I help you today?
 
 
-##  License
+###  License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-##  Contributing
+###  Contributing
 
 Contributions, improvements, and suggestions are welcome! Open issues or submit pull requests.
