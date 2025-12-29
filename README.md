@@ -26,10 +26,10 @@ This project demonstrates combining logic programming with a modern interactive 
 
 ##  Features
 
-✔ Prolog AI logic via API  
-✔ Interactive Python Streamlit interface  
-✔ Rule-based responses, easily extendable  
-✔ Lightweight, modular design
+ - Prolog AI logic via API  
+ - Interactive Python Streamlit interface  
+ - Rule-based responses, easily extendable  
+ - Lightweight, modular design
 
 ##  Getting Started
 
