@@ -56,7 +56,7 @@ This project demonstrates combining logic programming with a modern interactive 
 2. **Start the Streamlit interface:**
 
    ``` bash
-   streamlit run web.py
+   streamlit run streamlit.py
    ```
 
 3. Open your browser at the URL shown by Streamlit and start chatting.
