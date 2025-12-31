@@ -1,10 +1,8 @@
-% -------------------
-% LOAD LIBRARIES
-% -------------------
+
 :- use_module(library(json)).
 :- use_module(library(pcre)).
 :- use_module(library(random)).
-:- use_module(library(readutil)). % Required for reading input from CLI
+:- use_module(library(readutil)). 
 
 % -------------------
 % LOAD INTENT DATA
@@ -36,8 +34,8 @@ load_intent_data :-
                 )
             )
         ),
-        writeln('Data.json loaded successfully.')
-    ;   writeln('Warning: Data.json not found. Please create it.')
+        writeln('Data.json loaded ')
+    ;   writeln('.')
     ).
 
 % -------------------
@@ -53,15 +51,13 @@ chatbot_response(Input, Reply) :-
         findall(R, intent_response(Tag, R), Responses),
         random_member(Reply, Responses)
     ->  true
-    ;   Reply = "I'm not sure about that. Ask me something else!"
+    ;   Reply = "sorry idk"
     ).
 
 trim_string(S, T) :-
     re_replace("^[ \\t\\n\\r]+|[ \\t\\n\\r]+$", "", S, T).
 
-% -------------------
-% CLI INTERFACE
-% -------------------
+
 
 % Main entry point
 start_cli :-

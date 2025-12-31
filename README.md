@@ -15,6 +15,7 @@ This project demonstrates combining logic programming with a modern interactive 
 ###  Features
 
  - Prolog AI logic via API  
+ - Command-Line Support 
  - Interactive Python Streamlit interface  
  - Rule-based responses, easily extendable  
  - Lightweight, modular design
