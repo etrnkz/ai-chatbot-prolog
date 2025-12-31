@@ -152,7 +152,7 @@ with chat_panel:
                 unsafe_allow_html=True,
             )
 
-prompt = st.chat_input("Ask the Prolog-backed bot...")
+prompt = st.chat_input("Ask Anything...")
 
 if prompt:
     append_message("user", prompt.strip())
@@ -161,7 +161,7 @@ if prompt:
 
     if error:
         st.session_state.last_error = error
-        append_message("assistant", f"Backend error: {error}")
+        append_message("assistant", f"Apir: {error}")
     else:
         st.session_state.last_error = None
         append_message("assistant", reply or "No reply received.")
