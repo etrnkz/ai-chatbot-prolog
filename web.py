@@ -100,10 +100,7 @@ def append_message(role: str, content: str) -> None:
 
 def build_payload(message: str) -> dict:
     return {
-        "message": message,
-        "model": "..",
-        "temperature": 0.7,
-        "max_tokens": 512,
+        "message": message
     }
 
 
